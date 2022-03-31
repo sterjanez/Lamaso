@@ -7,7 +7,7 @@ Maze generator and solver
 ### Command 1 (New maze)
 A maze is a rectangular table containing cells which may be or may not be separated by walls. A tree maze is a maze in which walls are placed such that each two cells are connected with exactly one path (the maze has no loops and no isolated/unreachable regions). Below is an example of a 10 x 15 tree maze:
 
-![](example/Maze10x15.bmp)
+![](example/Maze10x15.bmp width=310)
 
 The following data has to be entered to construct a maze:
 - *Seed:* Can be any 32-bit signed integer.
