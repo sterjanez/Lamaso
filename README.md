@@ -20,10 +20,10 @@ The following data have to be entered to construct a maze:
 - *Probability set:* If *tree maze* is selected, the maze is constructed according to 6 probability values, which can be either set by default (select *y* when asked if apply default probability set) or entered manually (select *n*, then enter six unsigned 8-bit integers).
 - *Maze file:* After maze is constructed, enter the output BMP file or leave blank if no saving.
 ### Command 2 (New path)
-A *path* in a rectangular *m* x *n* table is a connection (path) between two cells in the table. Cells in the table are represented by pairs (*i*, *j*), where *i* is the row index (between 0 and *m* - 1) and *j* is the column index (between 0 and *n* - 1). Below is an example of a 150 x 100 path between the upper left corner cell (0, 0) and the lower right corner cell (99, 149):
+A *path* in a rectangular *m* x *n* table is a connection (path) between two cells in the table. Cells in the table are represented by pairs (*i*, *j*), where *i* is the row index (between 0 and *m* - 1) and *j* is the column index (between 0 and *n* - 1). Below is an example of a 15 x 10 path between the upper left corner cell (0, 0) and the lower right corner cell (9, 14):
 
 <p align="center">
-<img src="example/Path100x150.bmp"/>
+<img src="example/Path10x15.bmp"/>
 </p>
 
 To create a path, the following data have to be entered:
