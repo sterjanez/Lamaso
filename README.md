@@ -5,9 +5,9 @@ Maze generator and solver
 2. Either run build.ps1 with PowerShell (Windows environment), or build and install files with CMake.
 ## How to use the application
 ### Command 1 (New maze)
-A maze is a rectangular table containing cells which may be or may not be separated by walls. A tree maze is a maze in which walls are placed such that each two cells are connected with exactly one path (the maze has no loops and no isolated/unreachable regions). Below is an example of a 10 x 15 tree maze:
+A maze is a rectangular table containing cells which may or may not be separated by walls. A tree maze is a maze in which walls are placed such that each two cells are connected with exactly one path (the maze has no loops and has no isolated regions). Below is an example of a 10 x 15 tree maze:
 
-<img src="https://github.com/sterjanez/Lamaso/edit/main/Path100x150.png" width="301"/>
+<img src="example/Maze10x15.bmp" width="310"/>
 
 The following data has to be entered to construct a maze:
 - *Seed:* Can be any 32-bit signed integer.
